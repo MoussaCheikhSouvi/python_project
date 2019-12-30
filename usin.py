@@ -6,6 +6,11 @@ from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize,sent_tokenize
 
 
+
+
+
+
+
 abbreviations = {'ma.': 'mais', 'mr.': 'mister', 'bro.': 'brother', 'bro': 'brother', 'mrs.': 'mistress', 'ms.': 'miss', 'jr.': 'junior', 'sr.': 'senior',
                  'i.e.': 'for example', 'e.g.': 'for example', 'vs.': 'versus'}
 terminators = ['.',':','؟','،','؛', '!', '?',',',';',':','...','« »','-','_','(',')','Mais','et','de plus','.',
